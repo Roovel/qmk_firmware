@@ -249,7 +249,7 @@ void td_ticket_thread_and_rootly(tap_dance_state_t *state, void *user_data) {
             SS_TAP(X_SLASH)
             "deployment testing thread in Slack"
             SS_LSFT(SS_TAP(X_GRAVE))
-            SS_RALT(SS_LSFT(SS_TAP(X_GRAVE)) SS_DELAY(300))
+            SS_RALT(SS_LSFT(SS_TAP(X_GRAVE)) SS_DELAY(500))
             SS_LGUI(SS_TAP(X_V))
             SS_LALT(SS_TAP(X_9))
             );
@@ -261,7 +261,7 @@ void td_ticket_thread_and_rootly(tap_dance_state_t *state, void *user_data) {
             SS_TAP(X_GRAVE)
             "Rootly link"
             SS_LSFT(SS_TAP(X_GRAVE))
-            SS_RALT(SS_LSFT(SS_TAP(X_GRAVE)) SS_DELAY(300))
+            SS_RALT(SS_LSFT(SS_TAP(X_GRAVE)) SS_DELAY(500))
             SS_LGUI(SS_TAP(X_V))
             SS_LALT(SS_TAP(X_9))
             );
